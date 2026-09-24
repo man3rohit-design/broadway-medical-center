@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Broadway Medical Center | General Medical Care &amp; Podiatry in Washington Heights, NY</title>
+<style>
+:root{--bg:#fff;--alt:#f3f8fa;--card:#fff;--ink:#10263a;--mute:#566b7c;--pri:#0a5f7a;--pri2:#084a5f;--acc:#e8f4f8;--line:#dce6ec;--dark:#0b2f42;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0d1a24;--alt:#112230;--card:#15283a;--ink:#e8f0f5;--mute:#9fb3c2;--pri:#4fb8d4;--pri2:#7ccbe0;--acc:#183545;--line:#233a4b;--dark:#07131b}}
+:root[data-theme="dark"]{--bg:#0d1a24;--alt:#112230;--card:#15283a;--ink:#e8f0f5;--mute:#9fb3c2;--pri:#4fb8d4;--pri2:#7ccbe0;--acc:#183545;--line:#233a4b;--dark:#07131b}
+html{scroll-behavior:smooth;scroll-padding-top:110px}*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;line-height:1.65}
+a{color:inherit;text-decoration:none}.wrap{max-width:1140px;margin:0 auto;padding:0 22px}
+.top{background:var(--dark);color:#fff;font-size:.85rem}.top .wrap{display:flex;justify-content:space-between;gap:12px;padding-top:8px;padding-bottom:8px;flex-wrap:wrap}
+.top a{opacity:.9;margin-left:18px}
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:9;background:var(--bg);border-bottom:1px solid var(--line)}
+nav{display:flex;align-items:center;justify-content:space-between;height:70px}
+.logo{display:flex;gap:10px;align-items:center;font-weight:800;font-size:1.15rem;letter-spacing:-.01em}
+.logo i{font-style:normal;background:var(--pri);color:#fff;width:34px;height:34px;border-radius:9px;display:grid;place-items:center;font-size:1.3rem}
+.logo small{display:block;font-weight:500;font-size:.65rem;letter-spacing:.14em;color:var(--mute);text-transform:uppercase;margin-top:-4px}
+nav ul{display:flex;gap:26px;list-style:none;margin:0;padding:0;font-weight:500;font-size:.95rem}nav ul a:hover{color:var(--pri)}
+.btn{display:inline-block;background:var(--pri);color:#fff;padding:13px 26px;border-radius:999px;font-weight:600;border:2px solid var(--pri)}
+.btn:hover{background:var(--pri2);border-color:var(--pri2)}.btn.o{background:transparent;color:#fff;border-color:#fff}.btn.p{background:transparent;color:var(--pri)}
+.hero{background:linear-gradient(120deg,#0b2f42 0%,#0a5f7a 100%);color:#fff;padding:90px 0 80px;position:relative;overflow:hidden}
+.hero:after{content:"";position:absolute;right:-120px;top:-120px;width:520px;height:520px;border-radius:50%;background:rgba(255,255,255,.06)}
+.hero .wrap{display:grid;grid-template-columns:1.2fr .8fr;gap:40px;align-items:center;position:relative;z-index:1}
+.eyebrow{text-transform:uppercase;letter-spacing:.16em;font-size:.78rem;font-weight:700;color:#8fd6e8}
+.hero h1{font-size:clamp(2.1rem,4.6vw,3.5rem);line-height:1.1;margin:10px 0 18px;letter-spacing:-.02em}
+.hero p{font-size:1.1rem;opacity:.88;max-width:540px}.cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
+.panel{background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.22);border-radius:20px;padding:26px}
+.panel h3{margin:0 0 12px}.panel div{padding:10px 0;border-top:1px solid rgba(255,255,255,.2);font-size:.95rem}
+.ph{border-radius:20px;background:linear-gradient(135deg,var(--acc),var(--alt));border:1.5px dashed var(--pri);min-height:320px;display:grid;place-items:center;text-align:center;color:var(--pri);font-weight:600;padding:20px}
+.ph span{display:block;font-size:2.4rem}.ph small{color:var(--mute);font-weight:400}
+section{padding:72px 0}.alt{background:var(--alt)}
+h2{font-size:clamp(1.7rem,3.2vw,2.4rem);line-height:1.2;margin:0 0 12px;letter-spacing:-.01em}
+.lead{color:var(--mute);max-width:640px;margin:0 0 36px}.c{text-align:center}.c .lead{margin-inline:auto}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:18px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:26px;transition:.2s}
+.card:hover{transform:translateY(-4px);box-shadow:0 12px 30px rgba(10,95,122,.12)}
+.ic{width:46px;height:46px;border-radius:12px;background:var(--acc);display:grid;place-items:center;font-size:1.4rem;margin-bottom:14px}
+.card h3{margin:0 0 6px;font-size:1.1rem}.card p{margin:0;color:var(--mute);font-size:.95rem}
+.card a.l{display:inline-block;margin-top:12px;color:var(--pri);font-weight:600;font-size:.92rem}
+.split{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center}
+.split ul{padding-left:0;list-style:none;margin:18px 0 26px}.split li{padding:6px 0 6px 30px;position:relative}
+.split li:before{content:"✓";position:absolute;left:0;color:var(--pri);font-weight:800}
+.stats{background:var(--pri);color:#fff;padding:44px 0}.stats .grid{text-align:center}.stats b{font-size:2.3rem;display:block}
+.steps{counter-reset:s}.steps .card:before{counter-increment:s;content:counter(s);display:grid;place-items:center;width:38px;height:38px;border-radius:50%;background:var(--pri);color:#fff;font-weight:700;margin-bottom:12px}
+.reviews .card p{font-style:italic}.reviews .card small{display:block;margin-top:12px;color:var(--mute);font-style:normal}
+.stars{color:#f2a900;letter-spacing:2px}
+.visit{background:var(--dark);color:#fff}.visit .grid{gap:36px}.visit h4{margin:0 0 10px;color:#8fd6e8;text-transform:uppercase;letter-spacing:.12em;font-size:.8rem}
+.visit td{padding:3px 0;opacity:.9}.visit td:last-child{text-align:right;padding-left:20px}.visit a.u{text-decoration:underline}
+.note{font-size:.78rem;opacity:.7;margin-top:8px}
+footer{background:var(--dark);color:#9fb3c2;border-top:1px solid rgba(255,255,255,.12);padding:22px 0;font-size:.85rem}
+.sticky{display:none}
+@media(max-width:860px){nav ul{display:none}.hero .wrap,.split{grid-template-columns:1fr}.top .wrap div:last-child{display:none}
+.sticky{display:flex;position:fixed;left:0;right:0;bottom:0;padding-bottom:env(safe-area-inset-bottom,0px);background:var(--pri);z-index:20}
+.sticky a{flex:1;text-align:center;color:#fff;font-weight:600;padding:14px}body{padding-bottom:52px}}
+
+.rv{opacity:0;transform:translateY(34px);transition:opacity .8s ease,transform .8s ease;transition-delay:var(--d,0s)}
+.rv.in{opacity:1;transform:none}
+.rv.l{transform:translateX(-50px)}.rv.r{transform:translateX(50px)}.rv.l.in,.rv.r.in{transform:none}
+@keyframes fl{0%,100%{transform:translateY(0)}50%{transform:translateY(-14px)}}
+@keyframes pulse{0%,100%{transform:scale(1)}50%{transform:scale(1.12)}}
+@keyframes dash{to{stroke-dashoffset:0}}
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes hin{from{opacity:0;transform:translateY(24px)}to{opacity:1;transform:none}}
+.hero .wrap>div:first-child>*{animation:hin .9s both}.hero .eyebrow{animation-delay:.1s}.hero h1{animation-delay:.25s}.hero p{animation-delay:.4s}.hero .cta{animation-delay:.55s}
+.hero:after{animation:fl 7s ease-in-out infinite}
+.hero:before{content:"";position:absolute;left:-80px;bottom:-140px;width:360px;height:360px;border-radius:50%;background:rgba(255,255,255,.05);animation:fl 9s ease-in-out infinite reverse}
+.panel{animation:hin 1s .5s both,fl 6s 1.5s ease-in-out infinite}
+.ecg{display:block;width:100%;height:60px;margin-top:14px}
+.ecg path{stroke-dasharray:600;stroke-dashoffset:600;animation:dash 3s linear infinite}
+.ill{width:100%;border-radius:20px;background:linear-gradient(135deg,var(--acc),var(--alt));padding:20px}
+.ill .heart{transform-origin:center;transform-box:fill-box;animation:pulse 1.6s ease-in-out infinite}
+.ill .float{animation:fl 5s ease-in-out infinite}.ill .float2{animation:fl 6s 1s ease-in-out infinite}
+.ill .sp{transform-origin:center;transform-box:fill-box;animation:spin 18s linear infinite}
+.ic{transition:.3s}.card:hover .ic{transform:rotate(-8deg) scale(1.15);background:var(--pri)}
+.btn{transition:.25s}.btn:hover{transform:translateY(-2px);box-shadow:0 8px 20px rgba(0,0,0,.2)}
+.steps .card:before{transition:.3s}.steps .card:hover:before{transform:scale(1.2)}
+.stars{display:inline-block;animation:pulse 3s ease-in-out infinite}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.rv{opacity:1;transform:none}}
+
+.map{display:block;position:relative;margin-top:44px;border-radius:20px;overflow:hidden;border:1px solid rgba(255,255,255,.2);background:#dfeaf0}
+.map svg{display:block;width:100%;height:auto;min-height:260px}
+.map .pin{transform-box:fill-box;transform-origin:center bottom;animation:pinb 1.6s ease-in-out infinite}
+.map .ring{transform-box:fill-box;transform-origin:center;animation:ringp 2s ease-out infinite}
+@keyframes pinb{0%,100%{transform:translateY(0)}50%{transform:translateY(-10px)}}
+@keyframes ringp{0%{transform:scale(.4);opacity:.8}100%{transform:scale(2.4);opacity:0}}
+.map .lab{position:absolute;left:16px;bottom:16px;background:#fff;color:#10263a;border-radius:12px;padding:12px 16px;box-shadow:0 6px 20px rgba(0,0,0,.25);font-size:.9rem;line-height:1.4}
+.map .lab b{display:block}.map .go{position:absolute;right:16px;bottom:16px}
+
+.trio{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:22px}
+.pic{background:linear-gradient(160deg,var(--acc),var(--alt));border:1px solid var(--line);border-radius:22px;padding:22px 22px 26px;text-align:center;transition:.3s}
+.pic:hover{transform:translateY(-6px);box-shadow:0 16px 36px rgba(10,95,122,.15)}
+.pic svg{width:100%;max-width:230px;height:190px}.pic h3{margin:10px 0 4px}.pic p{margin:0;color:var(--mute);font-size:.93rem}
+.bob{animation:fl 4.5s ease-in-out infinite}.bob2{animation:fl 5.5s .8s ease-in-out infinite}
+.blink{animation:blk 4s infinite;transform-box:fill-box;transform-origin:center}
+@keyframes blk{0%,92%,100%{transform:scaleY(1)}96%{transform:scaleY(.1)}}
+.wave{transform-box:fill-box;transform-origin:left bottom;animation:wv 2s ease-in-out infinite}
+@keyframes wv{0%,100%{transform:rotate(-12deg)}50%{transform:rotate(14deg)}}
+.tick{stroke-dasharray:60;stroke-dashoffset:60;animation:dash 2.4s .5s ease-out infinite}
+.toe{transform-box:fill-box;transform-origin:center bottom;animation:pulse 2.4s ease-in-out infinite}
+form.ap{background:var(--card);border:1px solid var(--line);border-radius:22px;padding:30px;box-shadow:0 14px 40px rgba(10,95,122,.1)}
+form.ap h3{margin:0 0 4px;font-size:1.4rem}form.ap>p{margin:0 0 20px;color:var(--mute);font-size:.92rem}
+.fg{position:relative;margin-bottom:16px}
+.fg input,.fg select,.fg textarea{width:100%;padding:20px 14px 8px;border:1.5px solid var(--line);border-radius:12px;background:var(--bg);color:var(--ink);font:inherit;outline:none;transition:.25s}
+.fg textarea{min-height:90px;resize:vertical}
+.fg label{position:absolute;left:15px;top:14px;color:var(--mute);font-size:.95rem;pointer-events:none;transition:.2s;transform-origin:left}
+.fg input:focus,.fg select:focus,.fg textarea:focus{border-color:var(--pri);box-shadow:0 0 0 4px rgba(10,95,122,.15)}
+.fg input:focus+label,.fg input:not(:placeholder-shown)+label,.fg textarea:focus+label,.fg textarea:not(:placeholder-shown)+label,.fg select+label{top:5px;font-size:.72rem;color:var(--pri);font-weight:600}
+.fg.err input,.fg.err select{border-color:#e5484d;animation:shk .35s}.fg .em{display:none;color:#e5484d;font-size:.78rem;margin:4px 0 0 4px}.fg.err .em{display:block}
+@keyframes shk{25%{transform:translateX(-6px)}75%{transform:translateX(6px)}}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.sub-btn{width:100%;cursor:pointer;font:inherit;font-weight:700;position:relative}
+.sub-btn.load{pointer-events:none;opacity:.8}.sub-btn.load:after{content:"";display:inline-block;width:14px;height:14px;margin-left:10px;border:2px solid #fff;border-top-color:transparent;border-radius:50%;vertical-align:-2px;animation:spin .7s linear infinite}
+.ok{display:none;text-align:center;padding:16px 4px}.ok svg{width:90px;height:90px}.ok h3{margin:8px 0}.ok p{color:var(--mute)}
+form.done>*:not(.ok){display:none}form.done .ok{display:block;animation:hin .7s both}
+.circ{stroke-dasharray:170;stroke-dashoffset:170;animation:dash .8s forwards}.chk{stroke-dasharray:50;stroke-dashoffset:50;animation:dash .5s .7s forwards}
+.fine{font-size:.75rem;color:var(--mute);margin-top:10px;text-align:center}
+@media(max-width:560px){.two{grid-template-columns:1fr}}
+
+.illwrap{border-radius:20px;background:linear-gradient(135deg,var(--acc),var(--alt));padding:10px;overflow:hidden}
+.illwrap svg{display:block;width:100%;height:auto}
+.bounce{transform-box:fill-box;transform-origin:center;animation:bounce 2.4s ease-in-out infinite}
+.spinS{transform-box:fill-box;transform-origin:center;animation:spin 14s linear infinite}
+.spinR{transform-box:fill-box;transform-origin:center;animation:spin 10s linear infinite reverse}
+.sway{transform-box:fill-box;transform-origin:bottom center;animation:sway 3s ease-in-out infinite}
+.pop{transform-box:fill-box;transform-origin:center;animation:pop 2.2s ease-in-out infinite}
+.driftY{animation:fl 5.5s ease-in-out infinite}
+@keyframes bounce{0%,100%{transform:translateY(0)}50%{transform:translateY(-16px)}}
+@keyframes sway{0%,100%{transform:rotate(-4deg)}50%{transform:rotate(4deg)}}
+@keyframes pop{0%,100%{transform:scale(1)}50%{transform:scale(1.15)}}
+.stethring{transform-box:fill-box;transform-origin:center;animation:ringp 2.4s ease-out infinite}
+</style></head>
+<body>
+<div class="top"><div class="wrap"><div>📍 4446 Broadway, New York, NY 10040</div><div><a href="tel:+12123040001">📞 (212) 304-0001</a><a href="#visit">Hours &amp; Directions</a></div></div></div>
+<header><div class="wrap"><nav>
+<a class="logo" href="#top"><i>+</i><span>Broadway Medical Center<small>Washington Heights · NYC</small></span></a>
+<ul><li><a href="#services">Services</a></li><li><a href="#about">About Us</a></li><li><a href="#patients">New Patients</a></li><li><a href="#appointment">Appointment</a></li><li><a href="#message">Contact</a></li><li><a href="#reviews">Reviews</a></li><li><a href="#visit">Visit</a></li></ul>
+<a class="btn" href="tel:+12123040001">Book Appointment</a></nav></div></header>
+
+<main id="top">
+<div class="hero"><div class="wrap"><div>
+<div class="eyebrow">Medical Center · Washington Heights</div>
+<h1>Caring for Washington Heights, close to home.</h1>
+<p>Broadway Medical Center provides general medical care and podiatry on Broadway in Upper Manhattan. Call us to book a visit or ask about our services.</p>
+<div class="cta"><a class="btn" href="tel:+12123040001">Call to Book</a><a class="btn o" href="#services">Our Services</a></div><div class="illwrap rv" style="margin-top:30px"><svg viewBox="0 0 420 260" role="img" aria-label="Illustration of a doctor with a stethoscope and clinic icons">
+<circle class="spinS" cx="360" cy="40" r="26" fill="none" stroke="#8fd6e8" stroke-width="2.5" stroke-dasharray="4 7"/>
+<circle cx="130" cy="150" r="70" fill="#ffffff" opacity=".12"/>
+<circle cx="130" cy="105" r="34" fill="#f2c9a0"/>
+<path d="M96 128c0-40 68-40 68 0v10c0 6-4 10-10 10H106c-6 0-10-4-10-10z" fill="#fff"/>
+<rect x="70" y="150" width="120" height="90" rx="18" fill="#0a5f7a"/>
+<circle class="stethring" cx="130" cy="205" r="14" fill="none" stroke="#8fd6e8" stroke-width="3"/>
+<circle cx="130" cy="205" r="7" fill="#8fd6e8"/>
+<g class="bounce"><rect x="250" y="70" width="60" height="60" rx="14" fill="#fff"/><path d="M270 100h20M280 90v20" stroke="#e5484d" stroke-width="6" stroke-linecap="round"/></g>
+<g class="driftY"><circle cx="330" cy="170" r="24" fill="#fff" opacity=".9"/><path d="M318 170h9l4-10 7 20 4-10h8" fill="none" stroke="#e5484d" stroke-width="3"/></g>
+<g class="pop"><circle cx="220" cy="215" r="16" fill="#8fd6e8"/><path d="M213 215h14M220 208v14" stroke="#0a3547" stroke-width="3"/></g>
+</svg></div></div>
+<div class="panel"><h3>Visit Us</h3><div>📍 4446 Broadway, New York, NY 10040</div><div>📞 <a href="tel:+12123040001">(212) 304-0001</a></div><div>🕘 Mon – Fri, 9am – 5pm</div><div>💳 Call to verify your insurance</div><svg class="ecg" viewBox="0 0 300 60" preserveAspectRatio="none"><path d="M0 30h80l10-22 14 46 12-40 10 16h174" fill="none" stroke="#8fd6e8" stroke-width="2.5"/></svg></div>
+</div></div>
+
+<div class="stats"><div class="wrap"><div class="grid"><div><b>Mon–Fri</b>Open Weekdays</div><div><b>9am–5pm</b>Office Hours</div><div><b>Podiatry</b>Foot &amp; Ankle Care</div><div><b>Primary</b>General Medical Care</div></div></div></div>
+
+<section id="services"><div class="wrap c"><h2>Our Services</h2><p class="lead">Please call to confirm the services available.</p>
+<div class="grid" style="text-align:left">
+<div class="card"><div class="ic">🩺</div><h3>General Medical Care</h3><p>Checkups and everyday medical needs for adults.</p></div>
+<div class="card"><div class="ic">🦶</div><h3>Podiatry</h3><p>Care for foot and ankle pain, injuries and conditions.</p></div>
+<div class="card"><div class="ic">📞</div><h3>Other Services</h3><p>Call us to ask whether we can help with your needs.</p></div>
+</div></div></section>
+
+
+<section class="alt" id="care"><div class="wrap c"><h2>Care You Can Count On</h2><p class="lead">Friendly, professional care for you and your family.</p>
+<div class="trio">
+<div class="pic"><svg viewBox="0 0 230 190" role="img" aria-label="Doctor illustration"><g class="bob"><circle cx="115" cy="52" r="26" fill="#f1c9a5"/><path d="M89 46a26 26 0 0 1 52 0c-10-8-40-8-52 0z" fill="#3b2a20"/><g class="blink"><circle cx="106" cy="54" r="2.5" fill="#222"/><circle cx="124" cy="54" r="2.5" fill="#222"/></g><path d="M107 65q8 6 16 0" stroke="#a5563c" stroke-width="2.5" fill="none"/>
+<path d="M60 178c0-40 22-96 55-96s55 56 55 96z" fill="#fff" stroke="var(--pri)" stroke-width="3"/><path d="M100 84l15 30 15-30" fill="var(--pri)"/>
+<path d="M95 100c-10 20 0 40 20 40s28-20 22-40" fill="none" stroke="#2c3e50" stroke-width="3.5"/><circle cx="115" cy="142" r="7" fill="#8fd6e8" stroke="#2c3e50" stroke-width="3"/></g>
+<g class="wave"><rect x="168" y="96" width="14" height="46" rx="7" fill="#f1c9a5" transform="rotate(20 175 140)"/></g></svg><h3>General Medical Care</h3><p>Checkups and everyday health needs.</p></div>
+<div class="pic"><svg viewBox="0 0 230 190" role="img" aria-label="Foot care illustration"><g class="bob2"><path d="M90 160c-14-20-10-70 8-96 10-14 34-14 44 2 12 22 6 70 2 92-3 14-40 18-54 2z" fill="#f1c9a5" stroke="#d3a27a" stroke-width="3"/>
+<ellipse class="toe" cx="96" cy="52" rx="11" ry="13" fill="#f1c9a5" stroke="#d3a27a" stroke-width="3"/><ellipse class="toe" style="animation-delay:.2s" cx="118" cy="42" rx="9" ry="11" fill="#f1c9a5" stroke="#d3a27a" stroke-width="3"/><ellipse class="toe" style="animation-delay:.4s" cx="136" cy="46" rx="8" ry="10" fill="#f1c9a5" stroke="#d3a27a" stroke-width="3"/><ellipse class="toe" style="animation-delay:.6s" cx="150" cy="56" rx="7" ry="9" fill="#f1c9a5" stroke="#d3a27a" stroke-width="3"/></g>
+<g class="heart"><circle cx="175" cy="150" r="20" fill="#e5484d"/><path d="M165 150h20M175 140v20" stroke="#fff" stroke-width="5"/></g></svg><h3>Podiatry</h3><p>Foot and ankle care to keep you moving.</p></div>
+<div class="pic"><svg viewBox="0 0 230 190" role="img" aria-label="Appointment calendar illustration"><g class="bob"><rect x="45" y="35" width="140" height="120" rx="14" fill="#fff" stroke="var(--pri)" stroke-width="3"/><path d="M45 49a14 14 0 0 1 14-14h112a14 14 0 0 1 14 14v22H45z" fill="var(--pri)"/><rect x="75" y="24" width="8" height="24" rx="4" fill="var(--dark)"/><rect x="147" y="24" width="8" height="24" rx="4" fill="var(--dark)"/>
+<g fill="#cfe3ea"><circle cx="76" cy="95" r="6"/><circle cx="102" cy="95" r="6"/><circle cx="128" cy="95" r="6"/><circle cx="154" cy="95" r="6"/><circle cx="76" cy="121" r="6"/><circle cx="102" cy="121" r="6"/><circle cx="154" cy="121" r="6"/></g><circle cx="128" cy="121" r="11" fill="#e5484d" class="heart"/><path class="tick" d="M121 121l5 5 9-10" stroke="#fff" stroke-width="3.5" fill="none" stroke-linecap="round"/></g></svg><h3>Easy Appointments</h3><p>Call us or send a request online.</p></div>
+</div></div></section>
+<section id="about" class="alt"><div class="wrap split">
+<div class="ill rv l"><svg viewBox="0 0 400 320" role="img" aria-label="Illustration of a medical clinic building">
+<circle class="sp" cx="330" cy="60" r="34" fill="none" stroke="var(--pri)" stroke-width="3" stroke-dasharray="6 8"/>
+<rect x="60" y="90" width="230" height="190" rx="10" fill="var(--pri)"/>
+<rect x="90" y="120" width="40" height="40" rx="5" fill="#fff" opacity=".9"/><rect x="150" y="120" width="40" height="40" rx="5" fill="#fff" opacity=".9"/><rect x="210" y="120" width="40" height="40" rx="5" fill="#fff" opacity=".9"/>
+<rect x="150" y="200" width="50" height="80" rx="5" fill="var(--dark)"/>
+<g class="heart"><rect x="163" y="40" width="24" height="60" rx="5" fill="#e5484d"/><rect x="145" y="58" width="60" height="24" rx="5" fill="#e5484d"/></g>
+<g class="float"><circle cx="330" cy="200" r="26" fill="#fff" stroke="var(--pri)" stroke-width="3"/><path d="M318 200h10l5-12 8 24 5-12h8" fill="none" stroke="#e5484d" stroke-width="3"/></g>
+<g class="float2"><rect x="18" y="150" width="34" height="34" rx="8" fill="#8fd6e8"/><path d="M26 167h18M35 158v18" stroke="#fff" stroke-width="4"/></g>
+<rect x="30" y="280" width="340" height="8" rx="4" fill="var(--pri)" opacity=".3"/></svg></div>
+<div><div class="eyebrow" style="color:var(--pri)">About Us</div><h2>A neighborhood medical center on Broadway.</h2>
+<p class="lead" style="margin-bottom:0">Broadway Medical Center is a medical group practice at 4446 Broadway in Washington Heights, offering general medical care and podiatry to the local community.</p>
+<ul><li>General medical practice</li><li>Podiatry (foot and ankle care)</li><li>Open Monday to Friday, 9am to 5pm</li></ul>
+<a class="btn" href="#visit">Find Us</a></div></div></section>
+
+<section id="patients"><div class="wrap c"><h2>Your First Visit, Made Easy</h2><p class="lead">Getting started takes just a few minutes.</p><div class="illwrap rv" style="margin:0 auto 40px;max-width:520px"><svg viewBox="0 0 500 220" role="img" aria-label="Illustration of a clipboard checklist and calendar">
+<g class="driftY"><rect x="40" y="30" width="170" height="170" rx="16" fill="#fff"/><rect x="60" y="10" width="130" height="30" rx="8" fill="var(--pri)"/>
+<g class="pop"><rect x="60" y="60" width="16" height="16" rx="4" fill="var(--pri)"/></g><rect x="86" y="62" width="100" height="12" rx="6" fill="var(--acc)"/>
+<g class="pop" style="animation-delay:.4s"><rect x="60" y="95" width="16" height="16" rx="4" fill="var(--pri)"/></g><rect x="86" y="97" width="100" height="12" rx="6" fill="var(--acc)"/>
+<g class="pop" style="animation-delay:.8s"><rect x="60" y="130" width="16" height="16" rx="4" fill="var(--pri)"/></g><rect x="86" y="132" width="70" height="12" rx="6" fill="var(--acc)"/></g>
+<g class="bounce"><rect x="270" y="50" width="190" height="150" rx="16" fill="var(--pri)"/><rect x="270" y="50" width="190" height="34" rx="16" fill="var(--dark)"/>
+<circle cx="300" cy="130" r="10" fill="#8fd6e8"/><circle cx="340" cy="130" r="10" fill="#fff" opacity=".5"/><circle cx="380" cy="130" r="10" fill="#fff" opacity=".5"/><circle cx="420" cy="130" r="10" fill="#fff" opacity=".5"/>
+<circle cx="300" cy="165" r="10" fill="#fff" opacity=".5"/><circle cx="340" cy="165" r="10" fill="#fff" opacity=".5"/></g>
+</svg></div>
+<div class="grid steps" style="text-align:left">
+<div class="card"><h3>Call Us</h3><p>Phone (212) 304-0001 to book and confirm your insurance is accepted.</p></div>
+<div class="card"><h3>Bring Your Documents</h3><p>Photo ID, insurance card, medication list and any prior records.</p></div>
+<div class="card"><h3>Meet Your Provider</h3><p>Discuss your health goals and build a personal care plan.</p></div>
+<div class="card"><h3>Stay Connected</h3><p>Follow-ups and specialist referrals handled by one team.</p></div>
+</div></div></section>
+
+
+<section id="appointment"><div class="wrap split">
+<div><div class="eyebrow" style="color:var(--pri)">Appointments</div><h2>Request a visit</h2><p class="lead" style="margin-bottom:0">Tell us what you need and when suits you. Our team will confirm by phone. For anything urgent, please call us or dial 911 in an emergency.</p>
+<ul><li>Mon – Fri, 9am – 5pm</li><li>Call (212) 304-0001 to book directly</li><li>Bring your ID and insurance card</li></ul></div>
+<form class="ap" id="apf" novalidate><h3>Appointment Request</h3><p>Takes less than a minute.</p>
+<div class="two"><div class="fg"><input id="fn" placeholder=" " autocomplete="given-name"><label for="fn">Full name</label><div class="em">Please enter your name.</div></div>
+<div class="fg"><input id="fdob" type="date" placeholder=" "><label for="fdob">Date of birth</label><div class="em">Please enter your date of birth.</div></div></div>
+<div class="two"><div class="fg"><input id="fp" type="tel" placeholder=" " autocomplete="tel"><label for="fp">Phone number</label><div class="em">Enter a valid phone number.</div></div>
+<div class="fg"><input id="fem" type="email" placeholder=" " autocomplete="email"><label for="fem">Email (optional)</label></div></div>
+<div class="two"><div class="fg"><input id="fd" type="date"><label for="fd">Preferred date</label><div class="em">Choose a date.</div></div>
+<div class="fg"><select id="ft"><option value="">Any time</option><option>Morning (9–11am)</option><option>Midday (11am–1pm)</option><option>Afternoon (1–3pm)</option><option>Late afternoon (3–5pm)</option></select><label for="ft">Preferred time</label></div></div>
+<div class="two"><div class="fg"><select id="fs"><option value="">Select…</option><option>General Medical Care</option><option>Podiatry</option><option>Other / Not sure</option></select><label for="fs">Service</label><div class="em">Please choose a service.</div></div>
+<div class="fg"><select id="fnp"><option value="">Select…</option><option>New patient</option><option>Returning patient</option></select><label for="fnp">Patient status</label><div class="em">Please select an option.</div></div></div>
+<div class="two"><div class="fg"><input id="fins" placeholder=" "><label for="fins">Insurance provider (optional)</label></div>
+<div class="fg"><input id="finsid" placeholder=" "><label for="finsid">Insurance ID (optional)</label></div></div>
+<div class="fg"><textarea id="fm" placeholder=" "></textarea><label for="fm">Reason for visit / notes (optional)</label></div>
+<button class="btn sub-btn" type="submit">Request Appointment</button>
+<div class="fine">Please don't include sensitive medical details in this form.</div>
+<div class="ok"><svg viewBox="0 0 90 90"><circle class="circ" cx="45" cy="45" r="27" fill="none" stroke="var(--pri)" stroke-width="5" transform="rotate(-90 45 45)"/><path class="chk" d="M32 46l10 10 17-20" fill="none" stroke="var(--pri)" stroke-width="5" stroke-linecap="round"/></svg><h3>Thank you, <span id="nm"></span>!</h3><p id="sm"></p><a class="btn" href="tel:+12123040001">Call (212) 304-0001 to confirm</a></div></form>
+</div></section>
+<section id="reviews" class="alt"><div class="wrap c reviews"><h2>Patient Feedback</h2><p class="lead">See what other patients have said on Google.</p>
+<div class="cta" style="justify-content:center"><a class="btn p" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Broadway+Medical+Center+4446+Broadway+New+York+NY+10040">See Google Reviews</a></div></div></section>
+
+<section class="alt" id="message"><div class="wrap split">
+<div><div class="eyebrow" style="color:var(--pri)">Contact</div><h2>Send us a message</h2><p class="lead" style="margin-bottom:0">Have a question that isn't urgent? Send a message and our staff will get back to you. For anything urgent, please call us or dial 911 in an emergency.</p>
+<ul><li>We reply during office hours</li><li>Please don't include sensitive medical details</li><li>For same-day needs, call (212) 304-0001</li></ul></div>
+<form class="ap" id="mfrm" novalidate><h3>Message Us</h3><p>We'll respond by phone or email.</p>
+<div class="fg"><input id="mn" placeholder=" " autocomplete="name"><label for="mn">Full name</label><div class="em">Please enter your name.</div></div>
+<div class="two"><div class="fg"><input id="me" type="email" placeholder=" " autocomplete="email"><label for="me">Email</label><div class="em">Enter a valid email.</div></div>
+<div class="fg"><input id="mp" type="tel" placeholder=" " autocomplete="tel"><label for="mp">Phone (optional)</label></div></div>
+<div class="fg"><textarea id="mm" placeholder=" "></textarea><label for="mm">Your message</label><div class="em">Please enter a message.</div></div>
+<button class="btn sub-btn" type="submit">Send Message</button>
+<div class="fine">Please don't include sensitive medical details in this form.</div>
+<div class="ok"><svg viewBox="0 0 90 90"><circle class="circ" cx="45" cy="45" r="27" fill="none" stroke="var(--pri)" stroke-width="5" transform="rotate(-90 45 45)"/><path class="chk" d="M32 46l10 10 17-20" fill="none" stroke="var(--pri)" stroke-width="5" stroke-linecap="round"/></svg><h3>Thanks, <span id="mnm"></span>!</h3><p>Your message has been sent. We'll be in touch soon.</p></div></form>
+</div></section>
+<section id="visit" class="visit"><div class="wrap"><div class="grid">
+<div><h4>Visit Us</h4><p>Broadway Medical Center<br>4446 Broadway<br>New York, NY 10040</p><a class="btn" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Broadway+Medical+Center+4446+Broadway+New+York+NY+10040">Get Directions</a></div>
+<div><h4>Hours</h4><table><tr><td>Mon – Fri</td><td>9am – 5pm</td></tr><tr><td>Saturday</td><td>By appointment</td></tr><tr><td>Sunday</td><td>Closed</td></tr></table><div class="note">Please call to confirm current hours.</div></div>
+<div><h4>Contact</h4><p>Phone: <a class="u" href="tel:+12123040001">(212) 304-0001</a></p><a class="btn o" href="tel:+12123040001">Call Now</a></div>
+</div><a class="map rv" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Broadway+Medical+Center+4446+Broadway+New+York+NY+10040" aria-label="Open Broadway Medical Center in Google Maps">
+<svg viewBox="0 0 900 340" preserveAspectRatio="xMidYMid slice"><rect width="900" height="340" fill="#e8eef1"/>
+<rect x="30" y="20" width="200" height="110" rx="8" fill="#d5e3d0"/><rect x="640" y="200" width="230" height="120" rx="8" fill="#d5e3d0"/>
+<g fill="#fff" stroke="#c9d6dc" stroke-width="2"><path d="M-10 250L910 90" stroke-width="30"/><path d="M300 -10L420 350" stroke-width="16"/><path d="M-10 60L910 200" stroke-width="12"/><path d="M620 -10L560 350" stroke-width="12"/></g>
+<g fill="#f5c04a"><path d="M-10 250L910 90" stroke="#f5c04a" stroke-width="4" fill="none" transform="translate(0,0)"/></g>
+<text x="120" y="228" font-size="15" fill="#6b7f8c" font-family="sans-serif" transform="rotate(-10 120 228)">BROADWAY</text>
+<text x="700" y="140" font-size="13" fill="#6b7f8c" font-family="sans-serif">WASHINGTON HEIGHTS</text>
+<circle class="ring" cx="450" cy="170" r="16" fill="#e5484d"/>
+<g class="pin"><path d="M450 170c-22-26-34-42-34-58a34 34 0 0 1 68 0c0 16-12 32-34 58z" fill="#e5484d"/><circle cx="450" cy="112" r="12" fill="#fff"/></g></svg>
+<div class="lab"><b>Broadway Medical Center</b>4446 Broadway, New York, NY 10040</div>
+<span class="btn go">Open in Google Maps ↗</span></a></div></section>
+<section id="staff" style="display:none"><div class="wrap">
+<h2>Staff View</h2><p class="lead">Visible only to editors of this page. Newest submissions first.</p>
+<h3>Appointment Requests</h3>
+<div style="overflow-x:auto"><table style="width:100%;border-collapse:collapse"><thead><tr style="text-align:left;border-bottom:2px solid var(--line)"><th style="padding:8px">Name</th><th style="padding:8px">DOB</th><th style="padding:8px">Phone</th><th style="padding:8px">Email</th><th style="padding:8px">Service</th><th style="padding:8px">Date/Time</th><th style="padding:8px">Patient</th><th style="padding:8px">Insurance</th><th style="padding:8px">Notes</th><th style="padding:8px">Submitted</th><th style="padding:8px">Status</th><th style="padding:8px">Actions</th></tr></thead><tbody id="bk-body"><tr><td colspan="12">Loading…</td></tr></tbody></table></div>
+<h3 style="margin-top:32px">Messages</h3>
+<div style="overflow-x:auto"><table style="width:100%;border-collapse:collapse"><thead><tr style="text-align:left;border-bottom:2px solid var(--line)"><th style="padding:8px">Name</th><th style="padding:8px">Email</th><th style="padding:8px">Phone</th><th style="padding:8px">Message</th><th style="padding:8px">Submitted</th></tr></thead><tbody id="msg-body"><tr><td colspan="5">Loading…</td></tr></tbody></table></div>
+</div></section>
+</main>
+<footer><div class="wrap">© 2026 Broadway Medical Center · 4446 Broadway, New York, NY 10040 · In an emergency, call 911. <a href="#staff" id="staff-link" style="display:none;margin-left:10px">Staff View</a></div></footer>
+<div class="sticky"><a href="tel:+12123040001">📞 Call</a><a href="#visit">📍 Directions</a></div>
+<script>
+(function(){
+var sel='.card,.split>div,.lead,h2,.eyebrow,.stats .grid>div,.visit .grid>div,.cta';
+var els=document.querySelectorAll('main section '+sel+',main .stats '+sel);
+els.forEach(function(e,i){if(e.closest('.hero')||e.classList.contains('rv'))return;e.classList.add('rv');e.style.setProperty('--d',((i%4)*0.12)+'s')});
+var io=new IntersectionObserver(function(en){en.forEach(function(x){if(x.isIntersecting){x.target.classList.add('in');io.unobserve(x.target);
+var b=x.target.querySelector('b[data-n]');if(b)count(b)}})},{threshold:.15});
+document.querySelectorAll('.rv').forEach(function(e){io.observe(e)});
+function count(b){var n=+b.dataset.n,t=0,sfx=b.dataset.s||'';var f=setInterval(function(){t+=Math.ceil(n/30);if(t>=n){t=n;clearInterval(f)}b.textContent=t+sfx},35)}
+})();
+</script><script>
+(function(){
+function esc(s){return (s==null?'':String(s)).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})}
+
+async function getDb(){try{return (typeof claude!=='undefined')?await claude.use('db'):null}catch(e){return null}}
+async function getUser(){try{return (typeof claude!=='undefined')?await claude.use('user'):null}catch(e){return null}}
+
+(async function initAppointment(){
+var f=document.getElementById('apf');if(!f)return;
+var d=document.getElementById('fd');d.min=new Date().toISOString().split('T')[0];
+var dob=document.getElementById('fdob');dob.max=new Date().toISOString().split('T')[0];
+var db=await getDb();
+function bad(id,c){var g=document.getElementById(id).closest('.fg');g.classList.toggle('err',c);return c}
+f.addEventListener('submit',async function(e){e.preventDefault();
+var n=document.getElementById('fn').value.trim(),
+    dobv=dob.value,
+    praw=document.getElementById('fp').value.trim(),p=praw.replace(/\D/g,''),
+    em=document.getElementById('fem').value.trim(),
+    dt=d.value,
+    tm=document.getElementById('ft').value,
+    sv=document.getElementById('fs').value,
+    np=document.getElementById('fnp').value,
+    ins=document.getElementById('fins').value.trim(),
+    insid=document.getElementById('finsid').value.trim(),
+    msg=document.getElementById('fm').value.trim();
+var e1=bad('fn',!n),e2=bad('fdob',!dobv),e3=bad('fp',p.length<10),e4=bad('fd',!dt),e5=bad('fs',!sv),e6=bad('fnp',!np);
+var e7=bad('fem', em.length>0 && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(em));
+if(e1||e2||e3||e4||e5||e6||e7)return;
+var b=f.querySelector('.sub-btn');b.classList.add('load');
+var saved=false;
+var record={name:n,dob:dobv,phone:praw,email:em,date:dt,time:tm,service:sv,patientStatus:np,insuranceProvider:ins,insuranceId:insid,message:msg,status:'new',createdAt:Date.now()};
+if(db){try{await db.collection('bookings').add(record);saved=true}catch(err){saved=false}}
+document.getElementById('nm').textContent=n.split(' ')[0];
+document.getElementById('sm').textContent=(saved?'Your request for ':'We could not save your request online, but please call us for ')+sv+' on '+new Date(dt+'T00:00').toLocaleDateString('en-US',{month:'long',day:'numeric'})+(tm?' ('+tm+')':'')+(saved?' is noted. Please call us to confirm your appointment.':' to book directly.');
+f.classList.add('done')});
+f.querySelectorAll('input,select,textarea').forEach(function(i){i.addEventListener('input',function(){i.closest('.fg').classList.remove('err')})});
+})();
+
+(async function initMessage(){
+var f=document.getElementById('mfrm');if(!f)return;
+var db=await getDb();
+function bad(id,c){var g=document.getElementById(id).closest('.fg');g.classList.toggle('err',c);return c}
+f.addEventListener('submit',async function(e){e.preventDefault();
+var n=document.getElementById('mn').value.trim(),em=document.getElementById('me').value.trim(),ph=document.getElementById('mp').value.trim(),msg=document.getElementById('mm').value.trim();
+var e1=bad('mn',!n),e2=bad('me',!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(em)),e3=bad('mm',!msg);
+if(e1||e2||e3)return;
+var b=f.querySelector('.sub-btn');b.classList.add('load');
+if(db){try{await db.collection('messages').add({name:n,email:em,phone:ph,message:msg,status:'new',createdAt:Date.now()})}catch(err){}}
+document.getElementById('mnm').textContent=n.split(' ')[0];
+f.classList.add('done')});
+f.querySelectorAll('input,textarea').forEach(function(i){i.addEventListener('input',function(){i.closest('.fg').classList.remove('err')})});
+})();
+
+(async function initStaff(){
+var user=await getUser();
+var canEdit=false;
+try{canEdit=user?await user.canEdit():false}catch(e){canEdit=false}
+if(!canEdit)return;
+var link=document.getElementById('staff-link');if(link)link.style.display='inline';
+var panel=document.getElementById('staff');if(panel)panel.style.display='block';
+var db=await getDb();if(!db)return;
+var badgeColor={new:'#0a5f7a',confirmed:'#2e9e5b',cancelled:'#b3402a',completed:'#6b7f8c'};
+db.collection('bookings').orderBy('createdAt','desc').limit(50).onSnapshot(function(qs){
+var td='style="padding:8px;border-bottom:1px solid var(--line)"';
+var rows=qs.docs.map(function(doc){var v=doc.data()||{};var id=doc.id;var st=v.status||'new';
+var ins=[v.insuranceProvider,v.insuranceId].filter(Boolean).join(' / ');
+var badge='<span style="display:inline-block;padding:3px 10px;border-radius:999px;font-size:.75rem;font-weight:700;color:#fff;background:'+(badgeColor[st]||'#6b7f8c')+'">'+esc(st)+'</span>';
+var acts='<div style="display:flex;gap:6px;flex-wrap:wrap">'+
+ '<button data-id="'+id+'" data-st="confirmed" class="stbtn" style="font:inherit;font-size:.75rem;padding:4px 8px;border-radius:6px;border:1px solid var(--line);background:var(--card);cursor:pointer">Confirm</button>'+
+ '<button data-id="'+id+'" data-st="cancelled" class="stbtn" style="font:inherit;font-size:.75rem;padding:4px 8px;border-radius:6px;border:1px solid var(--line);background:var(--card);cursor:pointer">Cancel</button>'+
+ '<button data-id="'+id+'" data-st="completed" class="stbtn" style="font:inherit;font-size:.75rem;padding:4px 8px;border-radius:6px;border:1px solid var(--line);background:var(--card);cursor:pointer">Complete</button></div>';
+return '<tr><td '+td+'>'+esc(v.name)+'</td><td '+td+'>'+esc(v.dob)+'</td><td '+td+'>'+esc(v.phone)+'</td><td '+td+'>'+esc(v.email)+'</td><td '+td+'>'+esc(v.service)+'</td><td '+td+'>'+esc(v.date)+(v.time?' '+esc(v.time):'')+'</td><td '+td+'>'+esc(v.patientStatus)+'</td><td '+td+'>'+esc(ins)+'</td><td '+td+'>'+esc(v.message)+'</td><td '+td+'>'+esc(v.createdAt?new Date(v.createdAt).toLocaleString():'')+'</td><td '+td+'>'+badge+'</td><td '+td+'>'+acts+'</td></tr>'}).join('');
+document.getElementById('bk-body').innerHTML=rows||'<tr><td colspan="12" style="padding:8px">No requests yet.</td></tr>';
+document.querySelectorAll('.stbtn').forEach(function(btn){btn.addEventListener('click',async function(){
+btn.disabled=true;try{await db.doc('bookings/'+btn.dataset.id).update({status:btn.dataset.st})}catch(e){}btn.disabled=false})});
+},function(){document.getElementById('bk-body').innerHTML='<tr><td colspan="12" style="padding:8px">Could not load.</td></tr>'});
+db.collection('messages').orderBy('createdAt','desc').limit(50).onSnapshot(function(qs){
+var rows=qs.docs.map(function(doc){var v=doc.data()||{};return '<tr><td style="padding:8px;border-bottom:1px solid var(--line)">'+esc(v.name)+'</td><td style="padding:8px;border-bottom:1px solid var(--line)">'+esc(v.email)+'</td><td style="padding:8px;border-bottom:1px solid var(--line)">'+esc(v.phone)+'</td><td style="padding:8px;border-bottom:1px solid var(--line)">'+esc(v.message)+'</td><td style="padding:8px;border-bottom:1px solid var(--line)">'+esc(v.createdAt?new Date(v.createdAt).toLocaleString():'')+'</td></tr>'}).join('');
+document.getElementById('msg-body').innerHTML=rows||'<tr><td colspan="5" style="padding:8px">No messages yet.</td></tr>';
+},function(){document.getElementById('msg-body').innerHTML='<tr><td colspan="5" style="padding:8px">Could not load.</td></tr>'});
+})();
+})();
+</script></body></html>
